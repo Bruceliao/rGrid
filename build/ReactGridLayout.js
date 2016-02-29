@@ -214,7 +214,7 @@ var ReactGridLayout = function (_React$Component) {
       w: w, h: h, x: l.x, y: l.y, placeholder: true, i: i
     };
 
-    this.props.onResize(layout, oldResizeItem, l, placeholder, e, node);
+    this.props.onResize(layout, _ref5.size, oldResizeItem, l, placeholder, e, node);
 
     // Re-compact the layout and set the drag placeholder.
     this.setState({ layout: (0, _utils.compact)(layout, this.props.verticalCompact), activeDrag: placeholder });
